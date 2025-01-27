@@ -1,0 +1,11 @@
+[package]
+name = "romr-utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "rcat"
+path = "bin/rcat.rs"
+
