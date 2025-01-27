@@ -8,9 +8,9 @@ fn main() -> std::io::Result<()> {
         let mut file = File::open(&file_name)?;
         let mut content = String::new();
         file.read_to_string(&mut content)?;
-        println!("{}", content);
+        println!("\n{}", content);
     } else {
-        println!("Command: rcat <file name>");
+        println!("\nCommand: rcat <file name>");
     }
     Ok(())
 }
